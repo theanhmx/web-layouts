@@ -1,0 +1,38 @@
+
+html {
+	font-size: 10px;
+}
+
+html,
+body,
+.page {
+  height: 100%; /* needed for proper layout */
+}
+
+body {
+	overflow: hidden;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+	flex: 0 0 auto;
+	height: 5rem;
+	background: red;
+}
+
+.content {
+	flex: 1 1 auto;
+  position: relative;
+	font-size: 2rem;
+	overflow-y: auto;
+}
+
+footer {
+	flex: 0 0 auto;
+	height: 5rem;
+	background: blue;
+}
